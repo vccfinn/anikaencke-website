@@ -230,11 +230,27 @@ function switchSection(sectionId) {
 // Init
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Hamburger menu
+    const hamburger = document.querySelector('.hamburger');
+    const sidebar = document.querySelector('.sidebar');
+
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            sidebar.classList.toggle('menu-open');
+        });
+    }
+
     // Nav clicks
     document.querySelectorAll('[data-section]').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             switchSection(link.dataset.section);
+            // Close mobile menu
+            if (hamburger) {
+                hamburger.classList.remove('open');
+                sidebar.classList.remove('menu-open');
+            }
         });
     });
 
@@ -275,6 +291,23 @@ document.addEventListener('DOMContentLoaded', () => {
             navigate(currentSection, 1);
         }
     });
+
+    // Touch swipe navigation
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+        if (!galleries[currentSection]) return;
+        touchEndX = e.changedTouches[0].screenX;
+        const diff = touchStartX - touchEndX;
+        if (Math.abs(diff) > 50) {
+            navigate(currentSection, diff > 0 ? 1 : -1);
+        }
+    }, { passive: true });
 
     // Load first slides instantly (no fade delay)
     showSlide('malerei', 0, true);
