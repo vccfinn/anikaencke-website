@@ -2,109 +2,119 @@
 const galleries = {
     malerei: [
         {
-            file: 'works/malerei/ über den fluss, 2025 Tusche, Acrylfarben, Aquarellstifte auf Holzpappe 29,5x42 cm.jpg',
+            file: 'works/malerei/1. über den fluss, 2025 Tusche, Acrylfarben, Aquarellstifte auf Holzpappe          29,5 x 42 cm.jpg',
             title: 'über den fluss',
             details: '2025, Tusche, Acrylfarben, Aquarellstifte auf Holzpappe, 29,5 x 42 cm'
         },
         {
-            file: 'works/malerei/himmelsoweit, 2024,Acrylfarbe,Tusche ,Aquarell, Acrylstifte auf Holzpappe 50x70.cm.jpg',
+            file: 'works/malerei/2. königin, 2026 Tusche, Papier auf Holzpappe,            42 x 29,5 cm.jpeg',
+            title: 'königin',
+            details: '2026, Tusche, Papier auf Holzpappe, 42 x 29,5 cm'
+        },
+        {
+            file: 'works/malerei/3. himmelsoweit, 2024 Acrylfarbe, Tusche, Aquarell, Acrylstifte auf Holzpappe             50 x 70 cm.jpg',
             title: 'himmelsoweit',
             details: '2024, Acrylfarbe, Tusche, Aquarell, Acrylstifte auf Holzpappe, 50 x 70 cm'
         },
         {
-            file: 'works/malerei/Iimmer tiefer bis auf den grund  2020, Acrylfarbe, Tusche, Stifte, Papier auf Holzpappe, 70x50cm.jpg',
+            file: 'works/malerei/4. mit dir,  2017 Tusche, Acryl, Graphit, Pappe, Transparentpapier auf Holzpappe,     100 x 70 cm.jpg',
+            title: 'mit dir',
+            details: '2017, Tusche, Acryl, Graphit, Pappe, Transparentpapier auf Holzpappe, 100 x 70 cm'
+        },
+        {
+            file: 'works/malerei/5. verbunden,  2025 Tusche, Aquarell, Aquarellstifte       29,5 x 42 cm.jpg',
+            title: 'verbunden',
+            details: '2025, Tusche, Aquarell, Aquarellstifte, 29,5 x 42 cm'
+        },
+        {
+            file: 'works/malerei/6.  hora de mare baixa, 2025 Tusche, Aquarell, Acrystifte auf Holzpappe    29,5 x 42 cm.jpg',
+            title: 'hora de mare baixa',
+            details: '2025, Tusche, Aquarell, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
+        },
+        {
+            file: 'works/malerei/7. o.T., 2026 Tusche, Pappe, Papier auf Holzpappe             70 x 50 cm.JPG',
+            title: 'o.T.',
+            details: '2026, Tusche, Pappe, Papier auf Holzpappe, 70 x 50 cm'
+        },
+        {
+            file: 'works/malerei/8. dalla sorgente alla luce, sicilia, 2016 Tusche, Acrylstifte, Transparentpapier  auf Acrylpapier   31,5 x 23,5 cm.JPG',
+            title: 'dalla sorgente alla luce, sicilia',
+            details: '2016, Tusche, Acrylstifte, Transparentpapier auf Acrylpapier, 31,5 x 23,5 cm'
+        },
+        {
+            file: 'works/malerei/9. rotkäppchen wartet auf den wolf, 2018,                  Graphit, Aquarell, Acrylstift, Acrylfarbe, Buntstift, Papier auf Holzpappe                70 cm x 100 cm .jpg',
+            title: 'rotkäppchen wartet auf den wolf',
+            details: '2018, Graphit, Aquarell, Acrylstift, Acrylfarbe, Buntstift, Papier auf Holzpappe, 70 x 100 cm'
+        },
+        {
+            file: 'works/malerei/10. wieder, 2025 Tusche Graphit, Buntstift, farbiges Transparentpapier auf Holzpappe,      42 x 29,7 cm.jpg',
+            title: 'wieder',
+            details: '2025, Tusche, Graphit, Buntstift, farbiges Transparentpapier auf Holzpappe, 42 x 29,7 cm'
+        },
+        {
+            file: 'works/malerei/11. o.T., 2020, Tusche, Aquarell, Acrylfarbe,Acrylstifte, Buntstifte  42 x 29,5 cm            .JPG',
+            title: 'o.T.',
+            details: '2020, Tusche, Aquarell, Acrylfarbe, Acrylstifte, Buntstifte, 42 x 29,5 cm'
+        },
+        {
+            file: 'works/malerei/12. brulant, saint-pierre la mer 2017, Kreppband, Wachs, Graphit, Buntstift, Tombowstifte         33 x 24 cm.jpg',
+            title: 'brulant, saint-pierre la mer',
+            details: '2017, Kreppband, Wachs, Graphit, Buntstift, Tombowstifte, 33 x 24 cm'
+        },
+        {
+            file: 'works/malerei/13. immer tiefer bis auf den grund  2020, Acrylfarbe, Tusche, Stifte, Transparentpapier auf Holzpappe,      70 x 50 cm.jpg',
             title: 'immer tiefer bis auf den grund',
-            details: '2020, Acrylfarbe, Tusche, Stifte, Papier auf Holzpappe, 70 x 50 cm'
+            details: '2020, Acrylfarbe, Tusche, Stifte, Transparentpapier auf Holzpappe, 70 x 50 cm'
         },
         {
-            file: 'works/malerei/meergleisig, 2017, Acrylstifte ,Buntstifteauf Aquarellpapier, 21 x 29,7cm.jpg',
-            title: 'meergleisig',
-            details: '2017, Acrylstifte, Buntstifte auf Aquarellpapier, 21 x 29,7 cm'
+            file: 'works/malerei/14.see, 2022 Tusche, Acrylfarbe, Acrylstifte, Aquarell, Transparentpapier auf Holzpappe,    29,5 x 42 cm.JPG',
+            title: 'see',
+            details: '2022, Tusche, Acrylfarbe, Acrylstifte, Aquarell, Transparentpapier auf Holzpappe, 29,5 x 42 cm'
         },
         {
-            file: 'works/malerei/mil fontes, 2024, Tusche, Aquarelll,Buntstifte Acrylstifte auf Holzpappe29,5x42cm.jpg',
-            title: 'mil fontes',
-            details: '2024, Tusche, Aquarell, Buntstifte, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
+            file: 'works/malerei/15. o.T , 2019 Tusche, Acrylfarbe, Aquarellstifte, Buntstifte, Transparentpapier, Pappe auf Holzpappe          59,5 x 42 cm.jpg',
+            title: 'o.T.',
+            details: '2019, Tusche, Acrylfarbe, Aquarellstifte, Buntstifte, Transparentpapier, Pappe auf Holzpappe, 59,5 x 42 cm'
         },
         {
-            file: 'works/malerei/rio ,2025, Tusche, Eachsmaler, Acrylstifte auf Hilzpappe 29,5x42cm.jpg',
-            title: 'rio',
-            details: '2025, Tusche, Wachsmaler, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
-        },
-        {
-            file: 'works/malerei/saturo, 2024., Tusche, Acrylfarben, Acrylstifte, Transparentpapier auf Acrylpapier, 21 x 29,7 cm.jpg',
+            file: 'works/malerei/16. saturo, 2024 Tusche, Acrylfarben, Acrylstifte, Transparentpapier auf Acrylpapier,     21 x 29,7 cm.jpg',
             title: 'saturo',
             details: '2024, Tusche, Acrylfarben, Acrylstifte, Transparentpapier auf Acrylpapier, 21 x 29,7 cm'
         },
         {
-            file: 'works/malerei/verbunden 2025,, Tusche, Aquarell 29,5x42cm.jpg',
-            title: 'verbunden',
-            details: '2025, Tusche, Aquarell, 29,5 x 42 cm'
+            file: 'works/malerei/17. weggeguckt,2017, Acrylfarben, Aquarell, Tombowstifte, versch. Papiere auf Holzpappe,            42 x 29,5 cm.JPG',
+            title: 'weggeguckt',
+            details: '2017, Acrylfarben, Aquarell, Tombowstifte, versch. Papiere auf Holzpappe, 42 x 29,5 cm'
         },
         {
-            file: 'works/malerei/wieder, 2025 Tusche Graphit, farbiges transpparentpapier auf Holzpappe, 42x 29,7cm.jpg',
-            title: 'wieder',
-            details: '2025, Tusche, Graphit, farbiges Transparentpapier auf Holzpappe, 42 x 29,7 cm'
+            file: 'works/malerei/18.mil fontes, 2024 Tusche, Aquarell, Buntstifte, Acrylstifte auf Holzpappe           29,5 x 42 cm.jpg',
+            title: 'mil fontes',
+            details: '2024, Tusche, Aquarell, Buntstifte, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
         },
         {
-            file: 'works/malerei/2026, Tusche ,Papier auf Holzpappe, 42 x 29,5.jpeg',
+            file: 'works/malerei/19. still , 2026, Tusche, Transparentpapier auf Papier           14,8 x 21,00 cm.jpg',
+            title: 'still',
+            details: '2026, Tusche, Transparentpapier auf Papier, 14,8 x 21 cm'
+        },
+        {
+            file: 'works/malerei/20. o.T., 2016, Graphit, Tombowstifte      42 x 29,5cm.JPG',
             title: 'o.T.',
-            details: '2026, Tusche, Papier auf Holzpappe, 42 x 29,5 cm'
+            details: '2016, Graphit, Tombowstifte, 42 x 29,5 cm'
         },
         {
-            file: 'works/malerei/2026, Tusche auf Papier 14,8 x 21,00 cm.jpg',
-            title: 'o.T.',
-            details: '2026, Tusche auf Papier, 14,8 x 21 cm'
+            file: 'works/malerei/21. bei mir, 2019 Tusche, Acrylstifte, Aquarellstifte       Acrylfarbe, versch.Papiere und Pappen auf Holzpappe          59,5 x 42 cm.jpg',
+            title: 'bei mir',
+            details: '2019, Tusche, Acrylstifte, Aquarellstifte, Acrylfarbe, versch. Papiere und Pappen auf Holzpappe, 59,5 x 42 cm'
         },
         {
-            file: 'works/malerei/I2026, , Tusche auf Holzpappe ,i70x50cm.JPG',
-            title: 'o.T.',
-            details: '2026, Tusche auf Holzpappe, 70 x 50 cm'
+            file: 'works/malerei/22. rio , 2025 Tusche, Aquarellstifte Acrylstifte auf Holzpappe           29,5 x 42cm.jpg',
+            title: 'rio',
+            details: '2025, Tusche, Aquarellstifte, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
         },
         {
-            file: 'works/malerei/Das Geheimnis der 3, 2019 ,.Tusche, Acrylfarbe,Schellack, 100x 70 cm, Graphit,Tombowstifte, Stoff, ,Pappen auf Holzpappe ,.jpg',
-            title: 'Das Geheimnis der 3',
+            file: 'works/malerei/23. das geheimnis der 3, 2019 Tusche, Acrylfarbe, Schellack, Graphit,Tombowstifte, Stoff, Pappen auf Holzpappe           100 x 70 cm.jpg',
+            title: 'das geheimnis der 3',
             details: '2019, Tusche, Acrylfarbe, Schellack, Graphit, Tombowstifte, Stoff, Pappen auf Holzpappe, 100 x 70 cm'
-        },
-        {
-            file: 'works/malerei/Im blauen Meer, 2019, Acrylstifte,Acryl, Aquarellstifte, Tusche, Graphit, Pappe auf Holzpappe, 70x50 cm.jpg',
-            title: 'Im blauen Meer',
-            details: '2019, Acrylstifte, Acryl, Aquarellstifte, Tusche, Graphit, Pappe auf Holzpappe, 70 x 50 cm'
-        },
-        {
-            file: 'works/malerei/mit dir 2017, Tusche, Acryl, Graphit, Pappe auf Holzpappe, 100x70 cm.jpg',
-            title: 'mit dir',
-            details: '2017, Tusche, Acryl, Graphit, Pappe auf Holzpappe, 100 x 70 cm'
-        },
-        {
-            file: 'works/malerei/Tischleindeckdich, 2024, Aquarell, Acrylstifte,Tusche auf Aquarellpapier .jpg',
-            title: 'Tischleindeckdich',
-            details: '2024, Aquarell, Acrylstifte, Tusche auf Aquarellpapier'
-        },
-        {
-            file: 'works/malerei/eiszeit, 2026, Tusche, Papier auf Papier, 14,8 x 21cm, 000cm.JPG',
-            title: 'eiszeit',
-            details: '2026, Tusche, Papier auf Papier, 14,8 x 21 cm'
-        },
-        {
-            file: 'works/malerei/see,2022,AcrylfarbeAcrylstifte, Aquarelll, Transparentpapier auf Holzpappe , 29,5x42cm.JPG',
-            title: 'see',
-            details: '2022, Acrylfarbe, Acrylstifte, Aquarell, Transparentpapier auf Holzpappe, 29,5 x 42 cm'
-        },
-        {
-            file: 'works/malerei/sicilia, 2016, Tusche, Acrylstifte, Papier auf Papier 31,5x 23,5cm.JPG',
-            title: 'sicilia',
-            details: '2016, Tusche, Acrylstifte, Papier auf Papier, 31,5 x 23,5 cm'
-        },
-        {
-            file: 'works/malerei/2016, Acryl Pappe auf Holz , 14,7x21cm.jpg',
-            title: 'o.T.',
-            details: '2016, Acryl, Pappe auf Holz, 14,7 x 21 cm'
-        },
-        {
-            file: 'works/malerei/2017,Acrylfarben Buntstifte, Tombowstifte..Klebe, band, Transparentpapier  auf Aquarellpapierj, 30 x 40 cm.jpg',
-            title: 'o.T.',
-            details: '2017, Acrylfarben, Buntstifte, Tombowstifte, Klebeband, Transparentpapier auf Aquarellpapier, 30 x 40 cm'
         }
     ],
     zeichnung: [
