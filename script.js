@@ -52,11 +52,6 @@ const galleries = {
             details: '2025, Tusche, Graphit, Buntstift, farbiges Transparentpapier auf Holzpappe, 42 x 29,7 cm'
         },
         {
-            file: 'works/malerei/11. o.T., 2020, Tusche, Aquarell, Acrylfarbe,Acrylstifte, Buntstifte  42 x 29,5 cm            .JPG',
-            title: 'o.T.',
-            details: '2020, Tusche, Aquarell, Acrylfarbe, Acrylstifte, Buntstifte, 42 x 29,5 cm'
-        },
-        {
             file: 'works/malerei/12. brulant, saint-pierre la mer 2017, Kreppband, Wachs, Graphit, Buntstift, Tombowstifte         33 x 24 cm.jpg',
             title: 'brulant, saint-pierre la mer',
             details: '2017, Kreppband, Wachs, Graphit, Buntstift, Tombowstifte, 33 x 24 cm'
@@ -82,11 +77,6 @@ const galleries = {
             details: '2024, Tusche, Acrylfarben, Acrylstifte, Transparentpapier auf Acrylpapier, 21 x 29,7 cm'
         },
         {
-            file: 'works/malerei/17. weggeguckt,2017, Acrylfarben, Aquarell, Tombowstifte, versch. Papiere auf Holzpappe,            42 x 29,5 cm.JPG',
-            title: 'weggeguckt',
-            details: '2017, Acrylfarben, Aquarell, Tombowstifte, versch. Papiere auf Holzpappe, 42 x 29,5 cm'
-        },
-        {
             file: 'works/malerei/18.mil fontes, 2024 Tusche, Aquarell, Buntstifte, Acrylstifte auf Holzpappe           29,5 x 42 cm.jpg',
             title: 'mil fontes',
             details: '2024, Tusche, Aquarell, Buntstifte, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
@@ -105,11 +95,6 @@ const galleries = {
             file: 'works/malerei/21. bei mir, 2019 Tusche, Acrylstifte, Aquarellstifte       Acrylfarbe, versch.Papiere und Pappen auf Holzpappe          59,5 x 42 cm.jpg',
             title: 'bei mir',
             details: '2019, Tusche, Acrylstifte, Aquarellstifte, Acrylfarbe, versch. Papiere und Pappen auf Holzpappe, 59,5 x 42 cm'
-        },
-        {
-            file: 'works/malerei/22. rio , 2025 Tusche, Aquarellstifte Acrylstifte auf Holzpappe           29,5 x 42cm.jpg',
-            title: 'rio',
-            details: '2025, Tusche, Aquarellstifte, Acrylstifte auf Holzpappe, 29,5 x 42 cm'
         },
         {
             file: 'works/malerei/23. das geheimnis der 3, 2019 Tusche, Acrylfarbe, Schellack, Graphit,Tombowstifte, Stoff, Pappen auf Holzpappe           100 x 70 cm.jpg',
